@@ -3,13 +3,10 @@ body{
     padding: 50px;
 }
 .album-container{
-    text-align: center;
-    margin-top: 10px;
     display: inline-block;
+    text-align: center;
     width: calc(100% /6);
-    padding: 20px;
-    background-color:#1e2d3b ;  
-    
+    padding: 20px; 
 }
 .inner-album{
      background: #2e3a46;
@@ -25,14 +22,17 @@ body{
     color: #fff;
     padding-top:10px;  
 }
-h4{
+h3{
     font-size: large;
 }
 .author{
     font-size: 15px;
-    color: #808080; 
+    color: #808080;
+    font-weight: bold; 
 }
 .year{
+    display: block;
+    margin: 5px;
     font-size: 12px;
     color: #808080;
 }

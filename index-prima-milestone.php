@@ -35,7 +35,7 @@ Attraverso un’altra chiamata api, filtrare gli album per genere
             <div class="album-container">
                 <div class="inner-album container">
                     <img src="<?php echo "{$value['poster']}" ?>" alt="singolo-album">
-                    <div class="title"><h4><?php echo "{$value['title']}" ?></h4></div>
+                    <div class="title"><h3><?php echo "{$value['title']}" ?></h3></div>
                     <span class="author"><?php echo"{$value['author']}" ?></span>
                     <span class="year"><?php echo "{$value['year']}" ?></span>
                 </div>

@@ -17,7 +17,15 @@
 
     <div id="app">
         <div v-for="disc in discs">
-            {{disc}}
+
+            <div class="album-container">
+                <div class="inner-album container">
+                        
+                        <div class="title">{{disc.title}}</div>
+                        <span class="author">{{disc.author}}</span> 
+                        <span class="year">{{disc.year}}</span>
+                </div> 
+            </div>
         </div>
     </div>
 
