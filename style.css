@@ -5,7 +5,7 @@ body{
 .album-container{
     display: inline-block;
     text-align: center;
-    width: calc(100% /6);
+    width: calc(100% / 6);
     padding: 20px; 
 }
 .inner-album{
@@ -15,12 +15,12 @@ body{
 }
 .inner-album img{
     width: 200px;
-    height: 200px;
 }
 .title{
     font-weight: bold;
     color: #fff;
-    padding-top:10px;  
+    padding-top:10px; 
+    height: 100px; 
 }
 h3{
     font-size: large;
