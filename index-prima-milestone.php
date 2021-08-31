@@ -45,8 +45,26 @@ Attraverso un’altra chiamata api, filtrare gli album per genere
     </header>    
 
     <?php require_once __DIR__ . "/database/database.php";?>
-
     
+    <?php
+    /*
+    //filtra i generi a seconda del parametro che hai in GET
+    
+      $genre = $_GET['music'];
+
+      //funzione anonima associata alla variabile esterna
+      $filtered =  function($item) use ($genre) {
+            return $item["genre"] === $genre;
+      };
+     
+      if ($genre === '') {
+          $result = $database;
+      } else {
+          $result = array_filter($database, $filtered);
+      } */
+        ?>
+
+
         <?php foreach ($database as $key => $value) {?>
             <div class="album-container">
                 <div class="inner-album container">
@@ -57,6 +75,11 @@ Attraverso un’altra chiamata api, filtrare gli album per genere
                 </div>
             </div>
         <?php } ?>
-    
+
+        <?php
+        
+        
+        ?>
+            
 </body>
 </html>
