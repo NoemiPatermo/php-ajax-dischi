@@ -6,29 +6,34 @@ body{
     display: inline-block;
     text-align: center;
     width: calc(100% / 6);
-    padding: 20px; 
+    padding: 20px;  
 }
-.inner-album{
+.inner-album, .music-album{
      background: #2e3a46;
      padding: 20px;
-     
+     margin-top: 20px;     
 }
-.inner-album img{
-    width: 200px;
+.inner-album img, .music-album img{ 
+    width: 180px;
+    height: 180px;
+    
 }
 .title{
     font-weight: bold;
     color: #fff;
-    padding-top:10px; 
-    height: 100px; 
+    padding-top: 10px;
+    height: 80px;  
+    width: 180px;
 }
-h3{
+h5{
     font-size: large;
+    
 }
 .author{
     font-size: 15px;
     color: #808080;
-    font-weight: bold; 
+    font-weight: bold;
+    padding: 10px; 
 }
 .year{
     display: block;
@@ -36,3 +41,14 @@ h3{
     font-size: 12px;
     color: #808080;
 }
+/*seconda milestone*/
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;  
+}
+.music-album{
+    margin: 20px;
+}
+
