@@ -27,6 +27,22 @@ Attraverso un’altra chiamata api, filtrare gli album per genere
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class= "header-container">
+                <div class="spotify-logo">
+                    <img src="./img/spotify-logo.png" alt="logo-spotify">
+                </div>
+            <div class="select-container">
+                <select name="music" id="genre">
+                    <option value="">All</option>
+                    <option value="pop">Pop</option>
+                    <option value="rock">Rock</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="metal">Metal</option>
+                </select>
+            </div>
+        </div>
+    </header>    
 
     <?php require_once __DIR__ . "/database/database.php";?>
 

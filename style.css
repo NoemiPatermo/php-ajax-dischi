@@ -1,6 +1,17 @@
+
 body{
     background: #1e2d3b;
-    padding: 50px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #2e3a46; 
+    padding: 10px;
+    
+}
+.spotify-logo img{
+ width: 60px;
 }
 .album-container{
     display: inline-block;
@@ -15,7 +26,7 @@ body{
 }
 .inner-album img, .music-album img{ 
     width: 180px;
-    height: 180px;
+    min-height: 180px;
     
 }
 .title{
